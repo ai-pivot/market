@@ -1,0 +1,13 @@
+{
+  "schema": 2,
+  "id": "code-review-assistant",
+  "name": "Code Review Assistant",
+  "version": "1.0.0",
+  "description": "Code review bundle: GitHub operations skill + code reviewer agent",
+  "author": "ai-pivot",
+  "license": "MIT",
+  "contents": [
+    { "type": "skill", "name": "github", "source": "../../skills/github" },
+    { "type": "agent", "name": "code-reviewer", "source": "../../agents/code-reviewer.md" }
+  ]
+}

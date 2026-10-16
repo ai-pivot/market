@@ -8,7 +8,12 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "skills/agent-creator",
-      "tags": ["agent", "subagent", "role", "creation"]
+      "tags": [
+        "agent",
+        "subagent",
+        "role",
+        "creation"
+      ]
     },
     {
       "type": "skill",
@@ -17,7 +22,12 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "skills/brainstorm",
-      "tags": ["brainstorm", "design", "debate", "architecture"]
+      "tags": [
+        "brainstorm",
+        "design",
+        "debate",
+        "architecture"
+      ]
     },
     {
       "type": "skill",
@@ -26,7 +36,11 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "skills/feishu-mcp",
-      "tags": ["feishu", "mcp", "integration"]
+      "tags": [
+        "feishu",
+        "mcp",
+        "integration"
+      ]
     },
     {
       "type": "skill",
@@ -35,7 +49,13 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "skills/github",
-      "tags": ["github", "git", "ci", "issues", "pr"]
+      "tags": [
+        "github",
+        "git",
+        "ci",
+        "issues",
+        "pr"
+      ]
     },
     {
       "type": "skill",
@@ -44,7 +64,11 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "skills/mod-tools",
-      "tags": ["tools", "mcp", "sandbox"]
+      "tags": [
+        "tools",
+        "mcp",
+        "sandbox"
+      ]
     },
     {
       "type": "skill",
@@ -53,7 +77,11 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "skills/self-introduce",
-      "tags": ["intro", "onboarding", "help"]
+      "tags": [
+        "intro",
+        "onboarding",
+        "help"
+      ]
     },
     {
       "type": "skill",
@@ -62,7 +90,11 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "skills/skill-creator",
-      "tags": ["skill", "creation", "management"]
+      "tags": [
+        "skill",
+        "creation",
+        "management"
+      ]
     },
     {
       "type": "skill",
@@ -71,7 +103,12 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "skills/tui-debug",
-      "tags": ["tui", "test", "debug", "simulator"]
+      "tags": [
+        "tui",
+        "test",
+        "debug",
+        "simulator"
+      ]
     },
     {
       "type": "agent",
@@ -80,7 +117,11 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "agents/brainstorm.md",
-      "tags": ["brainstorm", "design", "debate"]
+      "tags": [
+        "brainstorm",
+        "design",
+        "debate"
+      ]
     },
     {
       "type": "agent",
@@ -89,7 +130,11 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "agents/code-reviewer.md",
-      "tags": ["code", "review", "quality"]
+      "tags": [
+        "code",
+        "review",
+        "quality"
+      ]
     },
     {
       "type": "agent",
@@ -98,7 +143,11 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "agents/explorer.md",
-      "tags": ["explore", "code", "search"]
+      "tags": [
+        "explore",
+        "code",
+        "search"
+      ]
     },
     {
       "type": "agent",
@@ -107,7 +156,11 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "agents/qa.md",
-      "tags": ["test", "qa", "verification"]
+      "tags": [
+        "test",
+        "qa",
+        "verification"
+      ]
     },
     {
       "type": "plugin",
@@ -116,7 +169,12 @@
       "author": "ai-pivot",
       "version": "0.3.0",
       "path": "plugins/xbot-ambience",
-      "tags": ["ui", "theme", "wallpaper", "glassmorphism"]
+      "tags": [
+        "ui",
+        "theme",
+        "wallpaper",
+        "glassmorphism"
+      ]
     },
     {
       "type": "plugin",
@@ -125,7 +183,11 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "plugins/xbot-genui",
-      "tags": ["ui", "channel", "web"]
+      "tags": [
+        "ui",
+        "channel",
+        "web"
+      ]
     },
     {
       "type": "plugin",
@@ -134,7 +196,11 @@
       "author": "ai-pivot",
       "version": "0.3.5",
       "path": "plugins/xbot-git-fancy",
-      "tags": ["git", "diff", "vcs"]
+      "tags": [
+        "git",
+        "diff",
+        "vcs"
+      ]
     },
     {
       "type": "plugin",
@@ -143,7 +209,12 @@
       "author": "ai-pivot",
       "version": "1.0.0",
       "path": "plugins/xbot-iteration-stats",
-      "tags": ["stats", "metrics", "iteration", "web"]
+      "tags": [
+        "stats",
+        "metrics",
+        "iteration",
+        "web"
+      ]
     },
     {
       "type": "plugin",
@@ -152,7 +223,20 @@
       "author": "ai-pivot",
       "version": "1.0.6",
       "path": "plugins/xbot-ssh-runner",
-      "tags": ["ssh", "remote", "runner", "devops"]
+      "tags": [
+        "ssh",
+        "remote",
+        "runner",
+        "devops"
+      ]
+    },
+    {
+      "type": "package",
+      "name": "code-review-assistant",
+      "description": "Code review bundle: GitHub operations skill + code reviewer agent",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "packages/code-review-assistant"
     }
   ]
 }
