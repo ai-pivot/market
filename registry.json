@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "type": "skill",
+      "name": "agent-creator",
+      "description": "Create a new SubAgent role. Use when user asks to create a new agent/role, or needs a specialized assistant for a specific task.",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "skills/agent-creator",
+      "tags": ["agent", "subagent", "role", "creation"]
+    },
+    {
+      "type": "skill",
+      "name": "brainstorm",
+      "description": "启动脑力激荡子代理进行交互式深度讨论与争辩。当需要设计方案讨论、架构选型辩论、方案质量挑战、探索替代方案时激活。",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "skills/brainstorm",
+      "tags": ["brainstorm", "design", "debate", "architecture"]
+    },
+    {
+      "type": "skill",
+      "name": "feishu-mcp",
+      "description": "Use when modifying tools/feishu_mcp/*.go or adding new Feishu MCP tools",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "skills/feishu-mcp",
+      "tags": ["feishu", "mcp", "integration"]
+    },
+    {
+      "type": "skill",
+      "name": "github",
+      "description": "GitHub operations via `gh` CLI: issues, PRs, CI runs, code review, API queries.",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "skills/github",
+      "tags": ["github", "git", "ci", "issues", "pr"]
+    },
+    {
+      "type": "skill",
+      "name": "mod-tools",
+      "description": "Tools 模块知识库。修改 tools/*.go 时自动激活。",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "skills/mod-tools",
+      "tags": ["tools", "mcp", "sandbox"]
+    },
+    {
+      "type": "skill",
+      "name": "self-introduce",
+      "description": "向零基础用户全面介绍 xbot 的能力，教会正确用法",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "skills/self-introduce",
+      "tags": ["intro", "onboarding", "help"]
+    },
+    {
+      "type": "skill",
+      "name": "skill-creator",
+      "description": "Create, update, or delete skills. Use when the user asks to create a new skill, modify an existing skill, package scripts/assets into a skill.",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "skills/skill-creator",
+      "tags": ["skill", "creation", "management"]
+    },
+    {
+      "type": "skill",
+      "name": "tui-debug",
+      "description": "零依赖场景驱动 TUI 模拟器。35+ action types，16+ assertion types。用于 TUI 测试场景录制与回放。",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "skills/tui-debug",
+      "tags": ["tui", "test", "debug", "simulator"]
+    },
+    {
+      "type": "agent",
+      "name": "brainstorm",
+      "description": "脑力激荡官，负责与主 agent 进行深度讨论与争辩，挑战假设、提出替代方案，以产出最优设计方案。",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "agents/brainstorm.md",
+      "tags": ["brainstorm", "design", "debate"]
+    },
+    {
+      "type": "agent",
+      "name": "code-reviewer",
+      "description": "Code review agent. Use after completing a significant piece of code, before merging, or when the user requests a review.",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "agents/code-reviewer.md",
+      "tags": ["code", "review", "quality"]
+    },
+    {
+      "type": "agent",
+      "name": "explorer",
+      "description": "Exploration agent. Use when you need to understand codebase structure, find files, search for patterns, or gather information before making changes.",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "agents/explorer.md",
+      "tags": ["explore", "code", "search"]
+    },
+    {
+      "type": "agent",
+      "name": "qa",
+      "description": "Testing agent. Use when you need to write tests, verify bug fixes, or validate functionality.",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "agents/qa.md",
+      "tags": ["test", "qa", "verification"]
+    },
+    {
+      "type": "plugin",
+      "name": "xbot-ambience",
+      "description": "壁纸 + 玻璃拟态（Ambience Layer 四层装饰模型）",
+      "author": "ai-pivot",
+      "version": "0.3.0",
+      "path": "plugins/xbot-ambience",
+      "tags": ["ui", "theme", "wallpaper", "glassmorphism"]
+    },
+    {
+      "type": "plugin",
+      "name": "xbot-genui",
+      "description": "Generic UI channel provider — enables web-based chat channels for xbot",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "plugins/xbot-genui",
+      "tags": ["ui", "channel", "web"]
+    },
+    {
+      "type": "plugin",
+      "name": "xbot-git-fancy",
+      "description": "Git integration with fancy diff rendering and repository browsing",
+      "author": "ai-pivot",
+      "version": "0.3.5",
+      "path": "plugins/xbot-git-fancy",
+      "tags": ["git", "diff", "vcs"]
+    },
+    {
+      "type": "plugin",
+      "name": "xbot-iteration-stats",
+      "description": "Iteration statistics widget for the web UI — tracks token usage, timing, and tool calls per iteration",
+      "author": "ai-pivot",
+      "version": "1.0.0",
+      "path": "plugins/xbot-iteration-stats",
+      "tags": ["stats", "metrics", "iteration", "web"]
+    },
+    {
+      "type": "plugin",
+      "name": "xbot-ssh-runner",
+      "description": "SSH remote runner — execute commands on remote machines via SSH from xbot",
+      "author": "ai-pivot",
+      "version": "1.0.6",
+      "path": "plugins/xbot-ssh-runner",
+      "tags": ["ssh", "remote", "runner", "devops"]
+    }
+  ]
+}
