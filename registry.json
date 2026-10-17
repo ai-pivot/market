@@ -164,7 +164,7 @@
     },
     {
       "type": "plugin",
-      "name": "xbot-ambience",
+      "name": "xbot.ambience",
       "description": "壁纸 + 玻璃拟态（Ambience Layer 四层装饰模型）",
       "author": "ai-pivot",
       "version": "0.3.0",
@@ -178,7 +178,7 @@
     },
     {
       "type": "plugin",
-      "name": "xbot-genui",
+      "name": "xbot.genui",
       "description": "Generic UI channel provider — enables web-based chat channels for xbot",
       "author": "ai-pivot",
       "version": "1.0.0",
@@ -191,7 +191,7 @@
     },
     {
       "type": "plugin",
-      "name": "xbot-git-fancy",
+      "name": "xbot.git-fancy",
       "description": "Git integration with fancy diff rendering and repository browsing",
       "author": "ai-pivot",
       "version": "0.3.5",
@@ -204,7 +204,7 @@
     },
     {
       "type": "plugin",
-      "name": "xbot-iteration-stats",
+      "name": "xbot.iteration-stats",
       "description": "Iteration statistics widget for the web UI — tracks token usage, timing, and tool calls per iteration",
       "author": "ai-pivot",
       "version": "1.0.0",
@@ -218,7 +218,7 @@
     },
     {
       "type": "plugin",
-      "name": "xbot-ssh-runner",
+      "name": "xbot.ssh-runner",
       "description": "SSH remote runner — execute commands on remote machines via SSH from xbot",
       "author": "ai-pivot",
       "version": "1.0.6",
