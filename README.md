@@ -50,3 +50,26 @@ xbot-cli list-installed
 ```
 
 type 可选值: `skill` | `agent` | `plugin` | `package`
+
+## Plugin layout (source + prebuilt binaries)
+
+Go plugins (`runtime: stdio` / `grpc`) cannot be built from a registry clone
+because their `go.mod` replaces xbot's `plugin/protocol` via a repo-relative
+path. The registry therefore ships **prebuilt binaries per platform** alongside
+the source:
+
+```
+plugins/<plugin-dir>/
+├── plugin.json
+├── main.go / ...            # source (kept for reference / auditing)
+└── bin/
+    ├── linux-amd64/<entry-binary>
+    ├── linux-arm64/<entry-binary>
+    ├── darwin-amd64/<entry-binary>
+    └── darwin-arm64/<entry-binary>
+```
+
+`xbot-cli install` / marketplace install selects `bin/<GOOS>-<GOARCH>/<entry-binary>`
+for the current platform and installs it as `~/.xbot/plugins/<plugin-id>/bin/<entry-binary>`.
+
+Script-runtime plugins (`runtime: script`) install the source directory as-is.
