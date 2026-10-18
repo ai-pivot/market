@@ -233,9 +233,9 @@
     {
       "type": "package",
       "name": "code-review-assistant",
-      "description": "Code review extension pack: ships the code-reviewer agent and depends on the github skill (both installable standalone).",
+      "description": "Code review collection: code-reviewer agent + github skill (subscription list, no versions/deps).",
       "author": "ai-pivot",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "path": "packages/code-review-assistant"
     }
   ]
