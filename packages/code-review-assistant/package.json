@@ -3,11 +3,11 @@
   "id": "code-review-assistant",
   "name": "Code Review Assistant",
   "version": "1.0.0",
-  "description": "Code review bundle: GitHub operations skill + code reviewer agent",
+  "description": "Code review extension pack: references the github skill + code-reviewer agent (both installable standalone).",
   "author": "ai-pivot",
   "license": "MIT",
   "contents": [
-    { "type": "skill", "name": "github", "source": "../../skills/github" },
-    { "type": "agent", "name": "code-reviewer", "source": "../../agents/code-reviewer.md" }
+    { "type": "skill", "name": "github" },
+    { "type": "agent", "name": "code-reviewer" }
   ]
 }
